@@ -1,0 +1,6 @@
+# robots.txt for Alex Frishberg website
+User-agent: *
+Allow: /
+
+# Sitemap location (update domain when deployed)
+Sitemap: https://alexfrishberg.com/sitemap.xml

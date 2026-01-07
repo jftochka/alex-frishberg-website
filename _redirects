@@ -1,0 +1,7 @@
+# Netlify redirects configuration
+
+# Redirect www to non-www (update domain when deploying)
+# https://www.alexfrishberg.com/* https://alexfrishberg.com/:splat 301!
+
+# Custom 404 page
+/*    /index.html   404
