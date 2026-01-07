@@ -23,3 +23,13 @@
 3. Removed AUDIO and EBOOK buttons, simplified to single BUY BOOK button per book
 
 4. Added target="_blank" to all Amazon links for new tab opening
+
+## Task: Set up SSH for GitHub
+
+### Commands Run:
+- ssh-keygen -t ed25519 -f ~/.ssh/ghkeyssh -C "ghkeyssh" -N ""
+- Created ~/.ssh/config with GitHub host configuration
+- chmod 600 ~/.ssh/config
+- git remote set-url origin git@github.com:jftochka/alex-frishberg-website.git
+- ssh -T git@github.com (verified connection)
+- git push origin master (successful)
