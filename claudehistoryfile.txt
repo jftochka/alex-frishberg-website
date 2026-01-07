@@ -1,0 +1,25 @@
+# Claude Code History - 2026-01-07
+
+## Task: Align book links to Amazon URLs
+
+### Files Modified:
+- books.html
+- index.html
+
+### Changes Made:
+
+1. Updated book links in books.html:
+   - The Steel Barons -> https://www.amazon.com/Steel-Barons-Alex-Frishberg-ebook/dp/B004IEA95U
+   - A Foreign Affair -> https://www.amazon.com/International-Love-Affair-Alex-Frishberg-ebook/dp/B004L2LMEQ
+   - Gonta -> https://www.amazon.com/Gonta-Alex-Frishberg-ebook/dp/B004N84VCI
+   - Maidan Revolution -> https://www.amazon.com/Maidan-Revolution-Alex-Frishberg-ebook/dp/B01M5EJECY
+   - Exodus 1974 -> https://www.amazon.com/stores/Alex-Frishberg/author/B001JXHCGW (author page, no direct match)
+   - Love Notes From Tokyo -> https://www.amazon.com/Love-Notes-Tokyo-Alex-Frishberg-ebook/dp/B004NNV47S
+
+2. Updated CTA buttons in books.html and index.html:
+   - Changed "Download Free Chapter" -> "View All Books" (author store link)
+   - Changed "Get the 6-Book Bundle" -> "Author Page" (author store link)
+
+3. Removed AUDIO and EBOOK buttons, simplified to single BUY BOOK button per book
+
+4. Added target="_blank" to all Amazon links for new tab opening
